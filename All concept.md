@@ -11,5 +11,10 @@
  # dekho hum code likhte hi pta hi tumhe actual paramete  formal pramete aur prototype
 # MAIN PROTOTYPE DECLERATION OF A FUNCTION DEFINATION OF A FUNCTION ko hi ELABORATION KO KHTE HI 
 #  as you see all of thease in this sreen shot  ![alt text](image-1.png)
-
- 
+# now turn to explain by value by refrence by adress 
+# pass by value ka mtlb hi ki tum fommal pramete me chnage hoga sirf actual prameter me chnage nhi hoga
+# dekho screenshot me ![alt text](image.png) 
+# now  by adress smjhte hi bilkul same concept like by value isme actual pramete change ho jate hii
+# ye le screnn shot ![alt text](image-2.png) 
+# now turn to explain pass by refrence dekh isem same like actual paramete change ho jati hi like pass by address ok
+# ye dekh skte ho ![alt text](image-3.png)
