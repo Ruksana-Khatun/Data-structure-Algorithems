@@ -17,3 +17,4 @@
 # ye le screnn shot ![alt text](image-2.png) 
 # now turn to explain pass by refrence dekh isem same like actual paramete change ho jati hi like pass by address ok
 # ye dekh skte ho ![![alt text](image-4.png)](image-3.png)
+# here is all linklist Data structure ![![alt text](image-6.png)](image-5.png)

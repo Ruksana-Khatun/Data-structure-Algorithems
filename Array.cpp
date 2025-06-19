@@ -17,6 +17,20 @@ int add(int a,int b){
     cout<<"after retun it should not exectue"<<endl;
 
 }
+struct Reactangulare{
+    int length;
+    int breadth;
+};
+void initilaze(struct Reactangulare *r, int l, int b) {
+    r->length = l;
+    r->breadth = b;
+}
+int area(struct Reactangulare r) {
+    return r.length * r.breadth;
+}
+void changeLength(struct Reactangulare *r, int l) {
+    r->length = l;
+}
 int main(){
 //     int arr[25]={1, 2, 3, 4, 5};
 //     int len=sizeof(arr)/sizeof(int);
@@ -61,6 +75,12 @@ int main(){
 int x,y,z;
 x=10;y=10;
 cout<<add(x,y)<<endl;
+struct Reactangulare r1;
+initilaze(&r1, 10, 5);
+area(r1);
+cout << "Area of rectangle: " << area(r1) << endl;
+changeLength(&r1, 20);
+
 return 0;
     
 }
